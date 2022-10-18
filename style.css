@@ -15,27 +15,29 @@
     width: 250px;
     height: 250px;
     position: relative;
-    top: 100px;
+    top: 95px;
     left: 100px;
     animation-name: anime;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
-.icons{
+.box{
+
     overflow: hidden;
     position: relative;
     width: 100px;
     top: 210px;
     padding: 10px;
     left: 150px;
+    height: 75px;
 
 }
 .anime2{
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     position: relative; 
     animation-name: anime2;
     animation-duration: 3s;
@@ -43,12 +45,13 @@
     left: 0px;
 }
 
-.text{
+.icons{
     animation: anime3;
     position: relative;
-    animation-duration: 6s;
+    animation-duration: 20s;
     animation-iteration-count: infinite ;
 }
+
 
 .shadow{
     background-color: gray;
@@ -66,38 +69,37 @@
 }
 @keyframes anime{
     0%{
-        top: 100px;
+        top: 95px;
     }
     25%{
-        top: 90px;
+        top: 85px;
     }
     50%{
-        top: 100px;
+        top: 95px;
     }
     75%{
-        top: 90px;
+        top: 85px;
     }
     100%{
-        top: 100px;
+        top: 95px;
     }
 }
 
 @keyframes anime2{
     0%{
-        top: 10px;
+        top: 20px;
     }
     25%{
-        top: 0px;
-    }
-    50%{
         top: 10px;
     }
+    50%{
+        top: 20px;
+    }
     75%{
-        top: 0px;
-
+        top: 10px;
     }
     100%{
-        top: 10px
+        top: 20px
     }
 }
 @keyframes anime3{
@@ -105,16 +107,16 @@
         left: 0px;
     }
     25%{
-        left: -65px;
+        left: -260px;
     }
     50%{
-        left: -130px;
+        left: 0px;
     }
     75%{
-        left: -195px;
+        left: -260px;
     }
     100%{
-        left: -260px;
+        left: 0px;
     }
 } 
 
